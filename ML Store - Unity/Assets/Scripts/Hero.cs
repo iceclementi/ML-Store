@@ -1,21 +1,105 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System;
 
-public class Hero : MonoBehaviour
+public class Hero
 {
-    [SerializeField] string heroName;
-    [SerializeField] Sprite heroImage;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static string AKAI = "Akai";
+    public static string ALDOUS = "Aldous";
+    public static string ALICE = "Alice";
+    public static string ALPHA = "Alpha";
+    public static string ALUCARD = "Alucard";
+    public static string ANGELA = "Angela";
+    public static string ARGUS = "Argus";
+    public static string ATLAS = "Atlas";
+    public static string AURORA = "Aurora";
+    public static string BADANG = "Badang";
+    public static string BALMOND = "Balmond";
+    public static string BANE = "Bane";
+    public static string BARATS = "Barats";
+    public static string BAXIA = "Baxia";
+    public static string BELERICK = "Belerick";
+    public static string BENEDETTA = "Benedetta";
+    public static string BRODY = "Brody";
+    public static string BRUNO = "Bruno";
+    public static string CARMILLA = "Carmilla";
+    public static string CECILION = "Cecilion";
+    public static string CHANG_E = "Chang'e";
+    public static string CHOU = "Chou";
+    public static string CLAUDE = "Claude";
+    public static string CLINT = "Clint";
+    public static string CYCLOPS = "Cyclops";
+    public static string DIGGIE = "Diggie";
+    public static string DYRROTH = "Dyrroth";
+    public static string ESTES = "Estes";
+    public static string EUDORA = "Eudora";
+    public static string FANNY = "Fanny";
+    public static string FARAMIS = "Faramis";
+    public static string FRANCO = "Franco";
+    public static string FREYA = "Freya";
+    public static string GATOTKACA = "Gatotkaca";
+    public static string GORD = "Gord";
+    public static string GRANGER = "Granger";
+    public static string GROCK = "Grock";
+    public static string GUINEVERE = "Guinevere";
+    public static string GUSION = "Gusion";
+    public static string HANABI = "Hanabi";
+    public static string HANZO = "Hanzo";
+    public static string HARITH = "Harith";
+    public static string HARLEY = "Harley";
+    public static string HAYABUSA = "Hayabusa";
+    public static string HELCURT = "Helcurt";
+    public static string HILDA = "Hilda";
+    public static string HYLOS = "Hylos";
+    public static string IRITHEL = "Irithel";
+    public static string JAWHEAD = "Jawhead";
+    public static string JOHNSON = "Johnson";
+    public static string KADITA = "Kadita";
+    public static string KAGURA = "Kagura";
+    public static string KAJA = "Kaja";
+    public static string KARINA = "Karina";
+    public static string KARRIE = "Karrie";
+    public static string KHALEED = "Khaleed";
+    public static string KHUFRA = "Khufra";
+    public static string KIMMY = "Kimmy";
+    public static string LANCELOT = "Lancelot";
+    public static string LAPU_LAPU = "Lapu-Lapu";
+    public static string LAYLA = "Layla";
+    public static string LEOMORD = "Leomord";
+    public static string LESLEY = "Lesley";
+    public static string LING = "Ling";
+    public static string LOLITA = "Lolita";
+    public static string LUNOX = "Lunox";
+    public static string LUO_YI = "Luo Yi";
+    public static string LYLIA = "Lylia";
+    public static string MARTIS = "Martis";
+    public static string MASHA = "Masha";
+    public static string MATHILDA = "Mathilda";
+    public static string MINOTAUR = "Minotaur";
+    public static string MINISITTHAR = "Minisitthar";
+    public static string MIYA = "Miya";
+    public static string MOSKOV = "Moskov";
+    public static string NANA = "Nana";
+    public static string NATALIA = "Natalia";
+    public static string ODETTE = "Odette";
+    public static string PHARSA = "Pharsa";
+    public static string POPOL_AND_KUPA = "Popol and Kupa";
+    public static string RAFAELA = "Rafaela";
+    public static string ROGER = "Roger";
+    public static string RUBY = "Ruby";
+    public static string SABER = "Saber";
+    public static string SELENA = "Selena";
+    public static string SILVANNA = "Silvanna";
+    public static string SUN = "Sun";
+    public static string TERIZLA = "Terizla";
+    public static string THAMUZ = "Thamuz";
+    public static string TIGREAL = "Tigrea;";
+    public static string URANUS = "Uranus";
+    public static string VALE = "Vale";
+    public static string VALIR = "Valir";
+    public static string VEXANA = "Vexana";
+    public static string WANWAN = "Wanwan";
+    public static string X_BORG = "X.Borg";
+    public static string YI_SUN_SHIN = "Yi Sun-Shin";
+    public static string YU_ZHONG = "Yu Zhong";
+    public static string ZHASK = "Zhask";
+    public static string ZILONG = "Zilong";
 }
