@@ -29,6 +29,7 @@ public class Hero
     public static string CYCLOPS = "Cyclops";
     public static string DIGGIE = "Diggie";
     public static string DYRROTH = "Dyrroth";
+    public static string ESMERALDA = "Esmeralda";
     public static string ESTES = "Estes";
     public static string EUDORA = "Eudora";
     public static string FANNY = "Fanny";
@@ -91,7 +92,7 @@ public class Hero
     public static string SUN = "Sun";
     public static string TERIZLA = "Terizla";
     public static string THAMUZ = "Thamuz";
-    public static string TIGREAL = "Tigrea;";
+    public static string TIGREAL = "Tigreal";
     public static string URANUS = "Uranus";
     public static string VALE = "Vale";
     public static string VALIR = "Valir";
