@@ -20,6 +20,11 @@ public class HeroData
         return name;
     }
 
+    public Sprite GetHeroImage()
+    {
+        return image;
+    }
+
     public int GetCost()
     {
         return cost;

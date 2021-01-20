@@ -17,6 +17,7 @@ public class Inventory : MonoBehaviour
         foreach (HeroData hero in heroList)
         {
             var newHeroCard = Instantiate(heroCard, transform);
+            newHeroCard.GetComponent<HeroCard>().InitialiseCard(hero);
         }
     }
 }
