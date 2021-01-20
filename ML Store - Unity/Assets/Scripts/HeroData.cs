@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeroData : MonoBehaviour
+public class HeroData
 {
-    private string heroName;
+    private string name;
+    private Sprite image;
     private int cost;
 
-    public HeroData(string heroName, int cost)
+    public HeroData(string name, Sprite image, int cost)
     {
-        this.heroName = heroName;
+        this.name = name;
+        this.image = image;
         this.cost = cost;
     }
 
     public string GetHeroName()
     {
-        return heroName;
+        return name;
     }
 
     public int GetCost()
